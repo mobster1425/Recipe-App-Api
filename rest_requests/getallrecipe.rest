@@ -1,0 +1,1 @@
+GET http://localhost:5000/api/v1/recipe?search=spaghetti&sort=a-z&page=1&limit=10 HTTP/1.1

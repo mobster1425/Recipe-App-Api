@@ -1,0 +1,25 @@
+PATCH http://localhost:5000/api/v1/recipe/6417def05a03f97d90879705 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Spaghetti kemi",
+    "description": "Classic pasta dish made with spaghetti, eggs, cheese, and bacon",
+    "instructions": [
+        "Cook spaghetti according to package directions",
+        "In a separate pan, cook bacon until crispy",
+        "In a bowl, whisk eggs and cheese together",
+        "Once spaghetti is cooked, drain and add to bacon pan",
+        "Remove pan from heat and add egg mixture, stirring quickly to coat spaghetti",
+        "Serve immediately"
+    ],
+    "ingredients": [
+        {
+            "_id": "6417def15a03f97d9087970d",
+            "name":"Spaghetti",
+            "quantity": 1,
+            "unit": "pound"
+        }
+    ]
+}
+
+//64170950e7170572c7bddbec

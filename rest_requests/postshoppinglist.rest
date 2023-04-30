@@ -1,0 +1,1 @@
+GET  http://localhost:5000/api/v1/recipe/6417def05a03f97d90879705/shoppingList/ HTTP/1.1

@@ -1,0 +1,1 @@
+DELETE  http://localhost:5000/api/v1/recipe/641743484c9fed4e56ef8552 HTTP/1.1

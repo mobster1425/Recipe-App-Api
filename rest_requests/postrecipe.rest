@@ -1,0 +1,40 @@
+POST http://localhost:5000/api/v1/recipe HTTP/1.1
+
+
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDFjMTZmNWQwMzgzN2QzMGY3ZjdlYTUiLCJuYW1lIjoiSm9obiBEb2UiLCJpYXQiOjE2Nzk1NjI0ODUsImV4cCI6MTY3OTY0ODg4NX0.fToWM_pNOzgWHzK6eYbiz_FbGTLrEr5iSDQLiScDUBU
+
+
+always put a blank line here and also between content-type: application/json
+{
+    
+ "name": "Spaghetti feyin",
+    "description": "Classic pasta dish made with spaghetti, eggs, cheese, and bacon",
+   
+    "instructions": [
+        "Cook spaghetti according to package directions",
+        "In a separate pan, cook bacon until crispy",
+        "In a bowl, whisk eggs and cheese together",
+        "Once spaghetti is cooked, drain and add to bacon pan",
+        "Remove pan from heat and add egg mixture, stirring quickly to coat spaghetti",
+        "Serve immediately"
+    ],
+    "ingredients": [
+        {
+            "name": "Spaghetti",
+            "quantity": 1,
+            "unit": "pound"
+        },
+       
+        {
+            "name": "Parmesan cheese",
+            "quantity": 1,
+            "unit": "cup"
+        },
+        {
+            "name": "Bacon",
+            "quantity": 6,
+            "unit": "slices"
+        }
+    ]
+}
